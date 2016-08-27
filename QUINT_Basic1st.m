@@ -25,7 +25,6 @@ MPR1 = 0;
 MPR2 = 0;
 
 for i =1:min(200, length(seeds))
-    i
     s = seeds{i}.s;
     Pos = seeds{i}.Pos;
     Neg = seeds{i}.Neg;
@@ -133,4 +132,4 @@ recallAt5 = recallAt5 /count;
 HLU = 100 * HLU1/HLU2;
 MPR = MPR1 / MPR2;
 
-fprintf('MAP = %f, MPR = %f, HLU %f, AUC = %f, P10 = %f, P20 = %f, R1 = %f, R5 = %f', MAP, MPR, HLU, AUC, precAt10, precAt20, recallAt1, recallAt5);
+fprintf('MAP = %f, MPR = %f, HLU %f, AUC = %f, P10 = %f, P20 = %f, R1 = %f, R5 = %f\n', MAP, MPR, HLU, AUC, precAt10, precAt20, recallAt1, recallAt5);

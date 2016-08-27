@@ -28,7 +28,6 @@ MPR2 = 0;
 
 
 for i =1:min(200, length(seeds))
-    i
     s = seeds{i}.s;
     Pos = seeds{i}.Pos;
     Neg = seeds{i}.Neg;

@@ -16,7 +16,7 @@ The package contains the following files:
 - BLin_W2P.m: normalize the matrix
 
 ## Usage
-Please refer to the main scripts (QUINT_Basic1st.m, QUINT_rankOne.m) and comments in each file for the detailed information
+Please refer to the demo code demo.m and comments in each file for the detailed information
 
 ## Refereces
 Liangyue Li, Yuan Yao, Jie Tang, Wei Fan, Hanghang Tong. QUINT: On Query-Specific Optimal Networks. 22nd ACM SIGKDD Conference on Knowledge Discovery and Data Mining (**KDD**), 2016. (*Full Presentation*)
