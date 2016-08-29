@@ -2,7 +2,7 @@
 ## Overview
 
 The package contains the following files:
-- Astro50.mat: Astro dataset, 50% of edges as training, the rest as testing
+- Astro50.mat: Astro dataset, 50% of edges as training, the rest as testing (see astro_train.txt and astro_test.txt for the edge list)
 - Astro_seeds5p5n_negposnonbr.mat: the query nodes and their positive and negative nodes
 - QUINT_Basic1st.m: QUINT basic version with first-order Taylor expansion
 - QUINT_rankOne.m: QUINT rank-one version
